@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img//undraw_shopping_re_3wst.svg" alt=""> <!--on peut ajouter title="" pour fair apparaitre un text quand on va avec le suris sur l'image-->
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>FORMULAIRE</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrer</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Prénom</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digiter le prénome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Nom</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digiter le nom" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digiter l'e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Numéro de télèphon</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxxx-xxxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Mot de passe</label>
+                        <input id="password" type="password" name="password" placeholder="Digiter le mot de passe" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="confirmPassword">Confirmer le mot de passe</label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Confirmer le mot de passe" required>
+                    </div>
+
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h2>Gendre</h2>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="female" type="radio" name="gender">
+                            <label for="female">Femme</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="male" type="radio" name="gender">
+                            <label for="male">Homme</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="others" type="radio" name="gender">
+                            <label for="others">Outres</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="none" type="radio" name="gender">
+                            <label for="none">Je péfere ne pas le dire</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Continuer</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
