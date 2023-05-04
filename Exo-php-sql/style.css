@@ -1,0 +1,26 @@
+  nav ul{
+    text-decoration: none;
+    display: flex;
+    background-color: rgb(238, 170, 238);
+  }
+  
+  li{
+    list-style: none;
+    padding: 20px;
+  }
+  
+  a{
+  text-decoration: none;
+  color: rgb(253, 253, 253);
+  }
+  
+  a:hover{
+    color: rgb(148, 16, 148);
+  }
+
+  .card.reserved {
+    background-color: #eee;
+    color: #999;
+  }
+  
+  
